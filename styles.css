@@ -1,0 +1,356 @@
+/* navigation bar */
+body {
+    overflow-x: hidden;
+}
+
+#title {
+    background-color: #1F4690;
+    color: white;
+    position: relative;
+}
+
+#navbarNavDropdown {
+    margin-left: 700px;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: white;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: #cecece;
+}
+
+.navbar-brand:hover {
+    color: #b0b0b0;
+}
+
+.nav-link:hover {
+    color: #b0b0b0;
+}
+
+a:hover {
+    color: #b0b0b0;
+}
+
+.navbar {
+    padding-top: 5%;
+}
+
+/* header */
+.header {
+    background-color: #1F4690;
+    width: 90%;
+    margin-left: auto;
+    padding-left: 80px;
+    padding-bottom: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hastag {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 10% 0 2% 0;
+    font-family: montserrat;
+}
+
+.dumbell {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+
+.abhishekImage {
+    border-radius: 100%;
+    height: 50%;
+    width: 25%;
+    box-shadow: black 0px 5px 10px;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    border: #1F4690 5px solid;
+    box-shadow: #803988 0 0 20px;
+}
+
+.abi-text {
+    position: absolute;
+    color: black;
+    left: 47%;
+    top: 135%;
+}
+
+/* body */
+#body {
+    margin-top: 20%;
+    padding: 7% 4%;
+    color: #0f3272;
+}
+
+.points {
+    text-align: center;
+}
+
+.detail {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.description {
+    width: 70%;
+    margin: auto;
+}
+
+.fa-solid {
+    color: #0c275a;
+}
+
+/* testimonials  */
+.carousel-item {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+#testimonials {
+    background-color: #5c7ebf;
+    color: white;
+    /* padding: 7% 15%; */
+    text-align: center;
+}
+
+.listItem {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.second {
+    margin-bottom: 1.15%;
+    padding: 7% 0;
+}
+
+.first {
+    padding: 7% 0;
+}
+
+
+/* pricing  */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    border: 1px solid;
+}
+
+.card {
+    border-style: none;
+}
+
+.ml-auto {
+    margin-left: 575px;
+}
+
+/* slogan section  */
+.slogan {
+    background-color: #5c7ebf;
+    text-align: center;
+    color: #fff;
+    padding: 6% 15%;
+}
+
+.sloganHeading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+.sloganPara {
+    font-size: 2rem;
+    margin-top: 5%;
+    color: #bfbec0;
+    font-weight: 500;
+}
+
+.tin {
+    color: rgb(32, 32, 32);
+}
+
+.social {
+    margin: 10px;
+}
+
+#footer {
+    padding: 10%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+/* mobile view  */
+@media(max-width: 1024px) {
+
+    .dumbell {
+        visibility: hidden;
+    }
+
+    .navbar-brand,
+    .hastag {
+        font-size: 1.5rem;
+        margin-right: 15%;
+    }
+
+    .abi-text {
+        left: 40%;
+        top: 125%;
+    }
+
+    .listItem {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .second {
+        margin-bottom: 4.5%;
+        padding: 4% 0;
+    }
+
+    .first {
+        padding: 7% 0;
+    }
+
+    /* navbar  */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #title {
+        background-color: #1F4690;
+        color: white;
+        position: relative;
+    }
+
+    #navbarNavDropdown {
+        margin-left: 700px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+    }
+
+    .navbar {
+        padding-top: 0;
+    }
+
+
+
+    /* header */
+    .header {
+        background-color: #1F4690;
+        width: 100%;
+        margin-left: auto;
+        padding-left: 5%;
+        padding-bottom: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 7%;
+    }
+
+    .hastag {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 10% 0 2% 0;
+        font-family: montserrat;
+    }
+
+    .abhishekImage {
+        border-radius: 100%;
+        height: 50%;
+        width: 25%;
+        box-shadow: black 0px 5px 10px;
+        position: absolute;
+        left: 40%;
+        top: 70%;
+        border: #1F4690 5px solid;
+        box-shadow: #803988 0 0 20px;
+    }
+
+    .abi-text {
+        left: 40%;
+        top: 125%;
+        font-size: 0.8rem;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+
+    /* pricing  */
+    #pricing {
+        width: 100%;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .pricing-column {
+        padding: 3% 2%;
+        border: 1px solid;
+    }
+
+    .card {
+        border-style: none;
+    }
+
+    .row {
+        margin-left: 5%;
+    }
+
+    /* slogan section  */
+    .slogan {
+        background-color: #5c7ebf;
+        text-align: center;
+        color: #fff;
+        padding: 6% 15%;
+    }
+
+    .sloganHeading {
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: 900;
+
+    }
+
+    .sloganPara {
+        font-size: 1.3rem;
+        margin-top: 5%;
+        color: #bfbec0;
+        font-weight: 500;
+    }
+}
