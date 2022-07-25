@@ -1,7 +1,9 @@
 /* navigation bar */
-body
-{
-overflow:hidden;
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
 }
 
 #title {
